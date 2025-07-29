@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemorentacarApplication<demorentacar>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.renta_car.demorentacar.DemorentacarApplication",
+            "projectName": "demorentacar",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
