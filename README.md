@@ -4,15 +4,10 @@ Impulsa alquileres sin complicaciones. Aumenta la satisfacción del cliente.
 
 Tabla de Contenidos
 Descripción General
-
 Comenzando
-
 Requisitos Previos
-
 Instalación
-
 Uso
-
 Pruebas
 
 Descripción General
@@ -24,52 +19,27 @@ El proyecto incluye utilidades para el mapeo de datos, estandarización de respu
 Este proyecto facilita el desarrollo de un backend eficiente y seguro para servicios de alquiler de autos. Algunas características destacadas incluyen:
 
 ✅ Endpoints API: Servicios RESTful bien definidos para gestionar autos, clientes y reservas.
-
 🔐 Seguridad: Control de acceso basado en roles y autenticación configurable.
-
 🔄 Mapeo de Datos: Utilidades para convertir resultados SQL en objetos Java.
-
 📦 Estandarización de Respuestas: APIs consistentes para mejorar la comunicación con el cliente.
-
 ❗ Manejo de Errores: Gestión centralizada y mensajes personalizados.
-
 🧱 Arquitectura Modular: Separación clara de responsabilidades para facilitar la escalabilidad y el mantenimiento.
 
 Comenzando
 Requisitos Previos
 Java 17 o superior
-
 Maven o Gradle
-
 IDE como IntelliJ o Eclipse
-
 Base de datos (MySQL, PostgreSQL, u otra compatible con JPA)
+
 
 Instalación
 Clona este repositorio:
-
-bash
-Copiar
-Editar
 git clone https://github.com/usuario/PROYECTO_RENT_CARD.git
 Configura el archivo application.properties con tus credenciales de base de datos.
 
 Ejecuta el proyecto:
-
-bash
-Copiar
-Editar
 ./mvnw spring-boot:run
 Uso
-Accede a los endpoints desde Postman o Swagger UI (http://localhost:8080/swagger-ui.html).
-
 Administra vehículos, clientes y reservas mediante peticiones HTTP (GET, POST, PUT, DELETE).
 
-Pruebas
-Este proyecto incluye pruebas unitarias y de integración.
-Para ejecutarlas:
-
-bash
-Copiar
-Editar
-./mvnw test
